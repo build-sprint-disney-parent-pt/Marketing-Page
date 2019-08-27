@@ -117,7 +117,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		font-weight: 800;
 		letter-spacing: 0.04em;
-		color: #404248;
+		color: red;
 		margin: 0 0 1em 0;
 	}
 
@@ -126,7 +126,9 @@ input, select, textarea {
 		text-decoration: none;
 		outline: 0;
 	}
-
+h1{
+		font-size: 3em;
+}
 	h2 {
 		font-size: 2em;
 		margin: 0 0 1.5em 0;
@@ -203,8 +205,8 @@ input, select, textarea {
     margin:0;
     background-size: auto;
     background-image: url("https://i.pinimg.com/originals/a6/bf/1c/a6bf1ca75ad990e12c886616b5adfa02.gif");
-    }
-    
+	}
+
    /* Nav */
 
 	#nav {
@@ -297,8 +299,8 @@ input, select, textarea {
         
         .banner {
         display: block;
-        width: auto;
+        width:65%;
         height:auto;
         border-radius: 8px;
 
-        } 
+		} 
