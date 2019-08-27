@@ -203,6 +203,7 @@ h1{
 .body {
     padding: 0;
 	margin:0;
+	
 	background-size: auto;
     background-image: url("https://i.pinimg.com/originals/a6/bf/1c/a6bf1ca75ad990e12c886616b5adfa02.gif");
 	}
@@ -211,6 +212,7 @@ h1{
 
 	#nav {
 		position: absolute;
+		
 		right: 2em;
 		top: 0;
 		line-height: 5.5em;
@@ -252,7 +254,8 @@ h1{
 
 .image {
     position: relative;
-    display: inline-block;
+	display: inline-block;
+	
 }
 
     .image img {
@@ -298,7 +301,7 @@ h1{
         }
         
         .banner {
-        display: block;
+		display: block;
         width:65%;
         height:auto;
         border-radius: 8px;
