@@ -1,3 +1,4 @@
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cd475e07-33f5-4729-80c6-2e2f9f431b14/deploy-status)](https://wizardly-wozniak-10700b.netlify.com/)
 
 # Disney Parent
@@ -25,4 +26,5 @@ Use a notification API like Twilio (https://www.twilio.com/) or Growl (http://gr
 - [Trello Board](https://trello.com/b/9TUoShHQ/disney-parent)
 - [Project Vision Document](https://docs.google.com/document/d/1iUbRDtfe2DSVnx2NiavZnZxA0b1E9L93pLLC_femXGk/edit?usp=sharing)
 - [Deployed Marketing Page URL](https://wizardly-wozniak-10700b.netlify.com/)
+
 
