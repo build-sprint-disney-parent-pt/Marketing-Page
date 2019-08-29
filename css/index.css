@@ -263,6 +263,7 @@ h1{
 
 /* boxes*/
 .intro {
+	width: 80%;
   margin: 0 auto;
   padding-top: 3rem;
 }
@@ -277,9 +278,9 @@ h1{
 
 .benefits, .how-to, .cost {
 	border: solid black 1px;
-	width: 40%;
+	width: 30%;
 	margin: 2% 0;
-	background-color:  #F5F5F5;
+	background-color:  rgb(241, 241, 241);
 	padding: 15px;
 }
 
@@ -349,11 +350,20 @@ p {
 
 
 
-  @media screen and (min-device-width: 501px) and (max-device-width: 900px) {
+  @media screen and (min-device-width: 101px) and (max-device-width: 900px) {
 
 	.boxes {
 		display:flex;
 		flex-direction: column;
 		width: 100%;	
 	}
+	.benefits, .how-to, .cost {
+		width: 80%;
+	}
   }
+
+  
+  }
+  
+
+  
