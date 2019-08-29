@@ -117,7 +117,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		font-weight: 800;
 		letter-spacing: 0.04em;
-		color: red;
+		color: black;
 		margin: 0 0 1em 0;
 	}
 
@@ -128,6 +128,7 @@ input, select, textarea {
 	}
 h1{
 		font-size: 3em;
+		color: white;
 }
 	h2 {
 		font-size: 2em;
@@ -262,6 +263,7 @@ h1{
 
 /* boxes*/
 .intro {
+	width: 80%;
   margin: 0 auto;
   padding-top: 3rem;
 }
@@ -276,9 +278,9 @@ h1{
 
 .benefits, .how-to, .cost {
 	border: solid black 1px;
-	width: 40%;
+	width: 30%;
 	margin: 2% 0;
-	background-color:  #F5F5F5;
+	background-color:  rgb(241, 241, 241);
 	padding: 15px;
 }
 
@@ -348,7 +350,20 @@ p {
 
 
 
-@media screen and (max-width: 600px) {
-  #nav {
-    flex-direction: row;
-    
+  @media screen and (min-device-width: 101px) and (max-device-width: 900px) {
+
+	.boxes {
+		display:flex;
+		flex-direction: column;
+		width: 100%;	
+	}
+	.benefits, .how-to, .cost {
+		width: 80%;
+	}
+  }
+
+  
+  }
+  
+
+  
